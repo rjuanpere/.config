@@ -186,7 +186,7 @@ exec_always --no-startup-id xinput disable 13
 exec --no-startup-id feh --bg-scale ~/Pictures/background3.jpg 
 exec --no-startup-id termite
 exec --no-startup-id chromium
-exec --no-startup-id spotify 
+#exec --no-startup-id spotify 
 assign [class="Termite"] $ws1 
 assign [class="Chromium"] $ws2
 for_window [class="Spotify"] move to workspace $ws3
